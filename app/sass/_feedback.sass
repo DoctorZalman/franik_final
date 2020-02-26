@@ -1,0 +1,106 @@
+.feedbackContent
+  display: flex
+  flex-direction: column
+  background: url(../img/menu/food.png) repeat
+  // background: url(../img/feedback/fb.jpg) no-repeat center center fixed
+  // background-size: cover
+  width: 100%
+  margin: 0 auto
+  padding: 40px 0
+
+  .feedback_desc
+    display: flex
+    justify-content: center
+    padding-bottom: 40px
+
+  .feedback-slider
+    padding: 120px 0
+    max-height: 1000px
+    max-width: 1020px
+    width: 100%
+    margin: 0 auto
+    z-index: 6
+    background: url(../img/feedback/slider.png) no-repeat center
+
+    &_item
+      display: flex
+      justify-content: center
+
+      img
+        padding: 20px
+        max-width: 250px
+        width: 100%
+      
+      .slide-desc
+        padding-left: 25px
+        max-width: 500px
+        width: 100%
+        
+        h2
+          margin-bottom: 20px
+          font-size: 48px
+          color: #000
+        span
+          color: #000
+
+
+    .slick-prev:before,
+    .slick-next:before 
+      display: none
+    
+    
+    .slick-prev,
+    .slick-next 
+      width: 50px
+      height: 120px
+      z-index: 1
+    
+    
+    .slick-prev 
+      background: url(../img/feedback/Cafe_06.png)
+    
+    
+    .slick-next 
+      
+      background: url(../img/feedback/left-arr.png)
+
+  .feedback_minisize
+    display: none
+    
+    .feedback-mini
+      display: flex
+      flex-wrap: wrap
+      justify-content: center
+      max-height: auto
+      max-width: 1600px
+      margin: 0 auto
+
+      &_item
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        max-width: 300px
+        max-height: 600px
+        height: 100%
+        background-color: #fff
+        border-radius: 10px
+        border: 1px solid red
+        margin: 20px
+
+        img
+          padding-top: 10px
+          max-width: 150px
+        
+        .slide-desc
+          padding: 15px 5px
+          max-width: 500px
+          width: 100%
+          
+          h2
+            margin-bottom: 20px
+            font-size: 38px
+            color: #000
+          span
+            font-size: 24px
+            color: #000

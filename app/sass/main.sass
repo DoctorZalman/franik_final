@@ -1,0 +1,195 @@
+@import "reset"
+	
+*
+	margin: 0
+	padding: 0
+	box-sizing: border-box
+	// transition: all .1s ease-in-out
+  scroll-behavior: smooth
+
+body
+	max-width: 1920px
+	width: 100%
+	min-width: 320px
+	margin: 0 auto
+
+.wrapper
+	max-width: 1200px
+	margin: 0 auto
+	padding: 0 15px
+
+
+.btn
+	button
+		position: relative
+		display: inline-block
+		font-family: Myriad Pro
+		font-size: 14px
+		letter-spacing: 1.5px
+		font-weight: 400
+		font-size: 1.5em
+		font-weight: 700
+		color: rgb(245, 245, 245)
+		text-shadow: 0 -1px rgba(0, 0, 0, 0.1)
+		text-decoration: none
+		text-transform: uppercase
+		user-select: none
+		padding: .3em 1em
+		outline: none
+		border: none
+		border-radius: 3px
+		background: #e7a331 linear-gradient(#c9bf62, #926f0d)
+		box-shadow: inset #decc26 0 -1px 1px, inset 0 1px 1px #fff898, #96aa3c 0 0 0 1px, rgba(0, 0, 0, 0.3) 0 2px 5px
+		-webkit-animation: pulsate 1.2s linear infinite
+		animation: pulsate 1.2s linear infinite
+
+		&:hover
+			-webkit-animation-play-state: paused
+			animation-play-state: paused
+			cursor: pointer
+
+		&:active
+			top: 1px
+			color: #fff
+			text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+			box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0, 0, 0, 0.8), inset 0 -1px 0 rgba(0, 0, 0, 0.05)
+
+	@-webkit-keyframes pulsate
+		50%
+			color: #fff
+			text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+
+	@keyframes pulsate
+		50%
+			color: #fff
+			text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+
+.btn-mini
+	button
+		position: relative
+		display: inline-block
+		font-family: Myriad Pro
+		font-size: 14px
+		letter-spacing: 1.5px
+		font-weight: 400
+		font-size: 1.5em
+		font-weight: 700
+		color: rgb(245, 245, 245)
+		text-shadow: 0 -1px rgba(0, 0, 0, 0.1)
+		text-decoration: none
+		text-transform: uppercase
+		user-select: none
+		padding: .3em 1em
+		outline: none
+		border: none
+		border-radius: 3px
+		background: #e7a331 linear-gradient(#c9bf62, #926f0d)
+		box-shadow: inset #decc26 0 -1px 1px, inset 0 1px 1px #fff898, #96aa3c 0 0 0 1px, rgba(0, 0, 0, 0.3) 0 2px 5px
+		-webkit-animation: pulsate 1.2s linear infinite
+		animation: pulsate 1.2s linear infinite
+
+		&:hover
+			-webkit-animation-play-state: paused
+			animation-play-state: paused
+			cursor: pointer
+
+		&:active
+			top: 1px
+			color: #fff
+			text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+			box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px #fff, inset 0 1px 2px rgba(0, 0, 0, 0.8), inset 0 -1px 0 rgba(0, 0, 0, 0.05)
+
+	@-webkit-keyframes pulsate
+		50%
+			color: #fff
+			text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+
+	@keyframes pulsate
+		50%
+			color: #fff
+			text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+
+h2
+	color: #fff
+	font-family: Pacifico
+	font-size: 60px
+	font-weight: 400
+	margin-top: 15px
+	text-shadow: -2px 10px 7px #000000
+h3
+	color: #fff
+	font-family: Myriad Pro
+	font-size: 34px
+	font-weight: 400
+	text-transform: uppercase
+	margin: 25px 0 
+	text-shadow: -2px 5px 7px #000000
+h4
+	color: #fff
+	font-family: Myriad Pro
+	font-size: 38px
+	font-weight: 400
+	text-transform: uppercase
+	margin: 15px 0
+	text-shadow: -2px 3px 7px #000000
+	
+span
+	color: #fff
+	font-family: Myriad Pro
+	font-size: 28px
+	font-weight: 400
+	margin-top: 30px
+	line-height: 1.2
+	letter-spacing: 2
+	opacity: .7
+	text-shadow: -2px 3px 7px #000000
+	
+
+@import "fonts"
+
+@import "header"
+
+@import "aboutUs"
+
+@import "recipes"
+
+@import "miniInfo"
+
+@import "menu"
+
+@import "gallery"
+
+@import "ourCheff" 
+
+@import "delivery"
+
+@import "wine"
+
+@import "feedback"
+
+@import "contact"
+
+@import "app"
+
+@import "map"
+
+@import "footer"
+
+@import "button_social"
+
+@import "scroll"
+
+@import "modal.sass"
+
+@import "last_modal.sass"
+
+@import "clock"
+
+@import "mini-modal"
+
+@import "flip_clock"
+
+@import "mediaq"
+
+
+
